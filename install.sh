@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+ln -s ~/.dotfiles/tmux/conf ~/.tmux.conf
+
 if [ -e ~/.config/nvim ]; then
   echo "nvim already symlinked, skipping..."
 else
