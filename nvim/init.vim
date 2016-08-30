@@ -33,3 +33,9 @@ map <Leader>w :w<CR>
 map <C-n> :NERDTreeToggle<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
+
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+filetype plugin indent on
