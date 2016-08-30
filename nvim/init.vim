@@ -29,6 +29,7 @@ nnoremap <silent> <BS> :TmuxNavigateLeft<cr>
 let mapleader=","
 noremap <Leader>h :<C-u>split<CR>
 noremap <Leader>v :<C-u>vsplit<CR>
+nnoremap <leader>. :CtrlPTag<cr>
 map <Leader>w :w<CR>
 map <C-n> :NERDTreeToggle<CR>
 
