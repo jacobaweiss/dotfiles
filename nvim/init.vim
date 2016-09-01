@@ -30,6 +30,7 @@ let mapleader=","
 noremap <Leader>h :<C-u>split<CR>
 noremap <Leader>v :<C-u>vsplit<CR>
 nnoremap <leader>. :CtrlPTag<cr>
+nnoremap <leader>m :CtrlPMRU<cr>
 map <Leader>w :w<CR>
 map <C-n> :NERDTreeToggle<CR>
 
