@@ -7,5 +7,7 @@ Plug 'tpope/vim-commentary'
 Plug 'Raimondi/delimitMate'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
+Plug 'janko-m/vim-test'
+Plug 'benmills/vimux'
 
 call plug#end()

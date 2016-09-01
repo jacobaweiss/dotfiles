@@ -34,6 +34,11 @@ nnoremap <leader>m :CtrlPMRU<cr>
 map <Leader>w :w<CR>
 map <C-n> :NERDTreeToggle<CR>
 
+" vim-test
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>l :TestLast<CR>
+
 autocmd BufWritePre * :%s/\s\+$//e
 
 if executable('ag')
