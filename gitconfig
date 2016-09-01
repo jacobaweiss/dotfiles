@@ -8,3 +8,5 @@
 	gpgsign = true
 [gpg]
 	program = /usr/local/bin/gpg2
+[core]
+	excludesfile = ~/.gitignore
