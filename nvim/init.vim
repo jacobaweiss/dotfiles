@@ -43,4 +43,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+set tags+=.tags
+
 filetype plugin indent on
