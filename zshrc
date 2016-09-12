@@ -17,7 +17,6 @@ export EDITOR='vim'
 eval "$(rbenv init -)"
 # [[ -s $HOME/.gvm/scripts/gvm ]] && . $HOME/.gvm/scripts/gvm
 
-# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 if [ -f ~/.gnupg/.gpg-agent-info ] && [ -n "$(pgrep gpg-agent)" ]; then
