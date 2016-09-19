@@ -10,5 +10,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mileszs/ack.vim'
 Plug 'janko-m/vim-test'
 Plug 'benmills/vimux'
+Plug 'elixir-lang/vim-elixir'
 
 call plug#end()
