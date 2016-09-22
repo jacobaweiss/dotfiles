@@ -40,6 +40,9 @@ nmap <silent> <leader>T :TestFile<CR>
 nmap <silent> <leader>l :TestLast<CR>
 let test#strategy = 'vimux'
 
+" rubocop
+nmap <silent> <Leader>R :call VimuxRunCommand("clear; rubocop " . bufname("%"))<CR>
+
 autocmd BufWritePre * :%s/\s\+$//e
 
 if executable('ag')
