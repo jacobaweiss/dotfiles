@@ -40,6 +40,10 @@ nmap <silent> <leader>T :TestFile<CR>
 nmap <silent> <leader>l :TestLast<CR>
 let test#strategy = 'vimux'
 
+" copying to clipboard
+vmap <C-x> :!pbcopy<CR>
+vmap <C-c> :w !pbcopy<CR><CR>
+
 autocmd BufWritePre * :%s/\s\+$//e
 
 if executable('ag')
