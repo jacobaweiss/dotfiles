@@ -1,12 +1,7 @@
 [user]
 	name = Jack Weiss
 	email = jacobaweiss@gmail.com
-	signingkey = 2F2BD28B
 [push]
 	default = simple
-[commit]
-	gpgsign = true
-[gpg]
-	program = /usr/local/bin/gpg2
 [core]
 	excludesfile = ~/.gitignore

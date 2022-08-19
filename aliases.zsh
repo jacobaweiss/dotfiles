@@ -13,7 +13,7 @@ alias gcb='git checkout -b'
 #rails
 alias bx='bundle exec'
 
-alias gpg='gpg2'
+# alias gpg='gpg2'
 alias vim='nvim'
 
 alias copy="tr -d '\n' | pbcopy"
